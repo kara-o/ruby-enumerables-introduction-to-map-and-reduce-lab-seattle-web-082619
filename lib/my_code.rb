@@ -19,14 +19,9 @@ def reduce_to_total(array, starting_pt = 0)
   array.reduce(starting_pt) { |sum, x| sum + x }
 end
 
+[true, false, true, true]
 
 def reduce_to_all_true(array)
   array.reduce do |memo, element|
-    if element == true 
-      true
-    else
-      return false 
-    end 
-  end
-  
-end 
+    element == true ? true : return false
+    
