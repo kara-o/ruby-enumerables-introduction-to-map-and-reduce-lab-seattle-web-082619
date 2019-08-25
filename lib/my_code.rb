@@ -26,6 +26,8 @@ def reduce_to_all_true(array)
   
   array.reduce do |memo, element|
     
+    
+    
   if memo == false 
     return false
   else 
@@ -36,7 +38,14 @@ end
 end
 
 def reduce_to_any_true(array)
- 
+  array.reduce do |memo, element|
+  
+  if memo == true 
+    return true 
+  else 
+    false 
+  end 
+end
 end 
 
     
