@@ -21,7 +21,6 @@ end
 
 
 
-[true, false, true]
 
 def reduce_to_all_true(array)
   
@@ -32,7 +31,7 @@ def reduce_to_all_true(array)
   else 
     element
   end 
-
+end
     
 end
 
