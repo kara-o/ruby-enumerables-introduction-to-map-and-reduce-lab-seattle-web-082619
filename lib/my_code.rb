@@ -29,6 +29,7 @@ def reduce_to_any_true(array)
     if x == true 
       true
     end 
+  end 
 end 
 
     
