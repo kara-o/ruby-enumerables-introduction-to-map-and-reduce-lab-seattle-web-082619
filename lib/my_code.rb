@@ -20,12 +20,24 @@ def reduce_to_total(array, starting_pt = 0)
 end
 
 
-def reduce_to_all_true(array)
 
+[true, false, true]
+
+def reduce_to_all_true(array)
+  
+  array.reduce do |memo, element|
+    
+  if memo == false 
+    return false
+  else 
+    element
+  end 
+
+    
 end
 
 def reduce_to_any_true(array)
- \\\\\\\\\
+ 
 end 
 
     
