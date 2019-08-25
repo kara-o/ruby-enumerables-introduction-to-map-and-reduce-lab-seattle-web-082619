@@ -10,3 +10,8 @@ end
 def map_to_double(array)
   array.map { |x| 2 * x }
 end 
+
+def map_to_square(array)
+  array.map { |x| x**2 }
+end 
+
