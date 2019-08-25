@@ -19,3 +19,4 @@ def reduce_to_total(array, starting_pt = 0)
   array.reduce(starting_pt) { |sum, x| sum + x }
 end
 
+def ret
