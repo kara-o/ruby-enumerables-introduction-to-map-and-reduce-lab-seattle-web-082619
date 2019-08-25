@@ -29,7 +29,7 @@ def reduce_to_all_true(array)
   if memo == false 
     return false
   else 
-    element
+    !!element
   end 
 end
     
