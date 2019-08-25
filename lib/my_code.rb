@@ -43,7 +43,7 @@ def reduce_to_any_true(array)
   if memo == true 
     return true 
   else 
-    false 
+    !!element 
   end 
 end
 end 
