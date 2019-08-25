@@ -22,4 +22,5 @@ end
 def reduce_to_all_true(array)
   array.reduce do |memo, element|
     element == true ? memo : element
+  end 
 end 
